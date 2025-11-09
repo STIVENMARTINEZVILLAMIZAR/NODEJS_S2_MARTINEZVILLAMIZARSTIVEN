@@ -1,0 +1,21 @@
+{
+  "name": "simulador-gastos-node",
+  "version": "1.0.0",
+  "description": "Simulador de gastos diarios - versión Node.js con clases",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "readline-sync": "^1.4.10",
+    "tabtab": "^3.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
