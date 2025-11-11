@@ -9,3 +9,4 @@ router.put("/:id", UsuarioController.actualizar);
 router.delete("/:id", UsuarioController.eliminar);
 
 export default router;
+    
