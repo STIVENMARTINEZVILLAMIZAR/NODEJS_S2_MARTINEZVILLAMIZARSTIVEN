@@ -1,13 +1,13 @@
 {
   "name": "sistemaintegradohospitalario",
   "version": "1.0.0",
-  "description": "Sistema Integrado Hospitalario (SIH)",
+  "description": "Sistema Integrado Hospitalario",
   "main": "app.js",
   "type": "module",
-  "scripts": {
-    "start": "node app.js",
-    "dev": "npx nodemon app.js"
-  },
+"scripts": {
+  "start": "node ./app.js",
+  "dev": "nodemon ./app.js"
+},
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",

@@ -1,14 +1,24 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Sistema Integrado Hospitalario</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <h1>Sistema Integrado Hospitalario (SIH)</h1>
-  <button id="loadBtn">Cargar Hospitales</button>
-  <ul id="listaHospitales"></ul>
+  <h1>🏥 Sistema Integrado Hospitalario (SIH)</h1>
+
+  <section id="hospitales">
+    <h2>Hospitales</h2>
+    <button id="btnLoadHosp">Cargar Hospitales</button>
+    <ul id="listHosp"></ul>
+  </section>
+
+  <section id="pacientes">
+    <h2>Pacientes</h2>
+    <button id="btnLoadPac">Cargar Pacientes</button>
+    <ul id="listPac"></ul>
+  </section>
 
   <script src="js/main.js"></script>
 </body>

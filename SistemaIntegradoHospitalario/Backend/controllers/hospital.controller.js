@@ -6,7 +6,11 @@ export const getHospitales = async (req, res) => {
 };
 
 export const addHospital = async (req, res) => {
-  const nuevo = new Hospital(req.body);
-  await nuevo.save();
-  res.json({ message: "🏥 Hospital agregado correctamente" });
+  try {
+    const nuevo = new Hospital(req.body);
+    await nuevo.save();
+    res.json({ message: "🏥 Hospital agregado correctamente" });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 };
